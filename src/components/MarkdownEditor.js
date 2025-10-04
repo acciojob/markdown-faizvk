@@ -95,7 +95,7 @@ function simpleMarkdownToHtml(md) {
 }
 
 export default function MarkdownEditor() {
-  // Initialize exactly to what tests expect
+  // Initialize exactly to what tests expect now
   const initialText = `# Markdown
 
 **bold**`;
