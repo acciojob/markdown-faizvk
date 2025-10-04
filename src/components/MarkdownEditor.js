@@ -1,4 +1,3 @@
-// File: src/MarkdownEditor.js
 import React, { useState, useEffect } from "react";
 
 // Very small markdown-to-html converter (supports headings, bold, italic, code blocks, inline code, paragraphs, lists)
@@ -79,7 +78,7 @@ function simpleMarkdownToHtml(md) {
 }
 
 export default function MarkdownEditor() {
-  const initialText = `# Markdown
+  const initialText = `# Heading
 
 **bold**`;
 
