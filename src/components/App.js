@@ -1,2 +1,16 @@
-<p>Now I can render any React component on any DOM node I want using ReactDOM.render</p>
+import React from "react";
+import MarkdownEditor from "./MarkdownEditor";
+import "./styles.css";
 
+export default function App() {
+  return (
+    <div className="app">
+      <header className="app-header">
+        <h1>Markdown Editor</h1>
+        <p>Write Markdown on the left — preview on the right.</p>
+      </header>
+
+      <MarkdownEditor />
+    </div>
+  );
+}
